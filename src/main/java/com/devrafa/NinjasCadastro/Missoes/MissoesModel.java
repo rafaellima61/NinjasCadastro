@@ -26,6 +26,4 @@ public class MissoesModel {
     // uma missao pode ter varios ninjas, porem um ninja so pode ter uma missao!
     @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninjas;
-
-
 }
